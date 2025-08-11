@@ -6,3 +6,7 @@
  # Video model will contain
  title ,description,videoUrL,Thumbnail,controls
  transformation-> restirction on height,width,quality of upload
+
+
+  # Session
+  coded the data models part installed mongoose bcryptjs
