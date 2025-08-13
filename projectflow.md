@@ -26,3 +26,9 @@
     You need to check if a connection already exists and only create a new one if needed, otherwise you risk creating too many connections.
 
   # type.d.ts bnaya h for global ki node k ecosystem m db connection exist krta h
+
+  # NEXT-AUTH SETUP
+  * sbse phle typsecript ka kaam kra from docs
+  * second next-auth regsitration of user handle nhi krta h so we have to write seprate backend api for that
+    app/api/auth/register/route.ts
+    
