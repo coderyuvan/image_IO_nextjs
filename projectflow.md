@@ -31,4 +31,7 @@
   * sbse phle typsecript ka kaam kra from docs
   * second next-auth regsitration of user handle nhi krta h so we have to write seprate backend api for that
     app/api/auth/register/route.ts
-    
+  * now adding login route using next auth 
+    step 1: add auth.ts in lib for adding provider basically a seprate file for all providers and importing in step2 
+    step 2: add [...nextauth] in auth folder inside that route.ts from docs 
+            the work flow go as -> write provider array-> credentialprovider->name->credentials -> authorize function logiv->nextauth will generte jwt and sessions that can be overwrite -> it will ask for pages (login and error)->session ->secret
